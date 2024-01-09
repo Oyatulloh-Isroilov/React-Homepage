@@ -1,0 +1,228 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Inter";
+  background: #fff;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Header styles */
+
+.headerBar {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-right: 220px;
+}
+
+.headerMenu {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 68px;
+}
+
+.headerMenu a {
+  color: var(--Gunmetal, #5e607a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* hero styles */
+
+.heroBar {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-left: 209.9px;
+}
+
+.heroLeft {
+  margin-right: 30px;
+}
+
+.heroInfo {
+  display: flex;
+  position: relative;
+}
+
+.heroInfo h1 {
+  display: flex;
+  width: 350px;
+  height: 182px;
+  flex-direction: column;
+  justify-content: center;
+  color: #00001a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.heroInfo p {
+  display: inline-block;
+  width: 350px;
+  color: #5e607a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.heroInfo button {
+  border: none;
+  outline: none;
+  width: 185px;
+  height: 48px;
+  color: var(--Almost-White, #fffdfa);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3.475px;
+  padding: 13px 34px;
+  background: var(--Light-Vermillion, #f15d51);
+  position: absolute;
+  top: 130px;
+  left: 380px;
+}
+
+.heroNews {
+  width: 350px;
+  height: 511px;
+  background: #00001a;
+  padding: 32px 24px;
+  margin-right: 100px;
+}
+
+.heroNews h2 {
+  color: var(--Yellow, #e9aa52);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: -20px;
+}
+
+/* New Info styles */
+
+.new {
+  padding: 29.6px 0px;
+  border-bottom: 1px solid #5e607a;
+}
+
+.new b {
+  color: var(--Almost-White, #fffdfa);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+.new p {
+  color: var(--Silver, #c5c6ce);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* Footer styles */
+
+.footer {
+  display: flex;
+  padding: 35px;
+}
+
+/* Block styles */
+
+.block {
+  display: flex;
+  gap: 32px;
+  margin-left: 90px;
+}
+
+.blockInfo b {
+  color: var(--Silver, #c5c6ce);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.blockInfo h3 {
+  color: var(--Dark-Space-Blue, #00001a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  margin-top: 1px;
+}
+
+.blockInfo p {
+  color: var(--Gunmetal, #5e607a);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: -8px;
+}
